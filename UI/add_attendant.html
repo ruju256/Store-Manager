@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="">
+
+	<div class="row">
+		<div class="col-30">
+			<img src="images/logo.png" class="logo">
+			<div class="menu">
+				<a href="admin_dashboard.html">Home</a>
+				<a href="add_product.html">Add A Product</a>
+				<a href="add_attendant.html"  class="active">Add Attendant</a>
+				<a href="sale_records.html">View Sale Record</a>
+				<a href="all_products.html">View Available Products</a>
+				<a href="#"><button class="btn-logout">Logout</button></a>
+			</div>			
+		</div>
+		<div class="col-70">            
+            <div class="product-padding card">
+                <h1 class="heading">Add Attendant</h1>                              
+            </div>
+            <form action="" class="product-form card">
+                <ul>                    
+                    <li>
+                        <label for="name">First Name</label>
+                        <input type="text" name="name" />
+                    </li>
+                    <li>
+                        <label for="email">Last Category</label>
+                        <input type="text" name="email" />                        
+                    </li>
+                    <li>
+                        <label for="name">Email</label>
+                        <input type="text" name="name" />
+                    </li>
+                    <li>
+                        <label for="email">Role</label>
+                        <select class="select-style">
+                                <option value="Admin">Select Role</option>
+                            <option value="Admin">Administrator</option>
+                            <option value="Attendant">Store Attendant</option>
+                        </select>                        
+                    </li>
+                    <li>
+                        <label for="email">Phone Number</label>
+                        <input type="text" name="email" />                        
+                    </li>
+                    <li>
+                        <button class="btn-product" type="submit">Submit Form</button>
+                    </li>
+                </ul>
+                
+            </form>
+                    
+		</div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
