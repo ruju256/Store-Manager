@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="">
+
+	<div class="row">
+		<div class="col-30">
+			<img src="images/logo.png" class="logo">
+			<div class="menu">
+				<a href="admin_dashboard.html">Home</a>
+				<a href="add_product.html" class="active">Add A Product</a>
+				<a href="add_attendant.html">Add Attendant</a>
+				<a href="sale_records.html">View Sale Record</a>
+				<a href="all_products.html">View Available Products</a>
+				<a href="#"><button class="btn-logout">Logout</button></a>
+			</div>			
+		</div>
+		<div class="col-70">            
+            <div class="product-padding card">
+                <h1 class="heading">Add Product</h1>                              
+            </div>
+            <form action="" class="product-form card">
+                    <ul>                    
+                        <li>
+                            <label for="name">Product Name:</label>
+                            <input type="text" name="name" />
+                        </li>
+                        <li>
+                            <label for="category">Product Category:</label>
+                            <input type="text" name="category" id="category" />                        
+                        </li>
+                        <li>
+                            <label for="Quantity">Quantity:</label>
+                            <input type="text" name="Quantity" id="Quantity"/>
+                        </li>
+                        <li>
+                                <label for="min_qty">Minimum Quantity:</label>
+                                <input type="text" name="min_qty" id="min_qty"/>                        
+                            </li>
+                        <li>
+                            <label for="manf">Manufacturer:</label>
+                            <input type="text" name="manf" id="manf" />                        
+                        </li>
+                        <li>
+                            <label for="manf_date">Manufacturer Date:</label>
+                            <input type="text" name="manf_date" id="manf_date" />                        
+                        </li>
+                        <li>
+                            <label for="exp_date">Expiry Date:</label>
+                            <input type="text" name="exp_date" id="exp_date" />                        
+                        </li>                                
+                        <li>
+                            <label for="price">Unit Cost:</label>
+                            <input type="text" name="price" id="price" />                        
+                        </li>
+                        <li>
+                            <button class="btn-product" type="submit">Save</button>
+                        </li>
+                    </ul>                            
+                </form>
+                    
+		</div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
