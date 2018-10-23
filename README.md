@@ -11,3 +11,13 @@ This Stage of the Application consists of basic User interfaces pages.
 #Tools Used
 1. Git - Git is a version control tool
 2. Vscode - Used VScode as my text editor
+
+
+Link to github pages: https://ruju256.github.io/Store-Manager/UI/
+
+Admin login email: admin@andela.com
+admin login password : admin123
+
+Attendant login email : attendant@andela.com
+Attendant login password: andela123
+
